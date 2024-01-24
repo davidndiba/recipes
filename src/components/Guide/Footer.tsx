@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout } from 'antd';
-
+import './Guide.less'
 const { Footer: AntFooter } = Layout;
 
 function Footer() {

@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
 import { Input, Button, Card, Rate } from 'antd';
 import { StarFilled } from '@ant-design/icons';
-import 'antd/dist/antd.css';
-
+import './Guide.less'
 const RatingForm: React.FC = () => {
   const [rating, setRating] = useState<number | null>(null);
   const [hover, setHover] = useState<number | null>(null);
@@ -25,11 +24,11 @@ const RatingForm: React.FC = () => {
   };
 
   return (
-    <Card title="Rate Us">
+    <Card style={{width:'100%',height:'740px'}}>
       <div style={styles.container}>
         <Rate
           allowHalf
-        //   value={rating}
+          value={rating}
           onChange={handleRatingChange}
           onHoverChange={(currentHover) => setHover(currentHover)}
           character={<StarFilled style={{ fontSize: 30 }} />}
@@ -41,7 +40,7 @@ const RatingForm: React.FC = () => {
           onChange={handleFeedbackChange}
           style={styles.textarea}
         />
-        <Button type="primary" style={styles.button} onClick={handleSubmit}>
+        <Button className='new' type="primary" style={styles.button} onClick={handleSubmit}>
           Submit
         </Button>
       </div>

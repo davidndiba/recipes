@@ -13,8 +13,12 @@
   "dependencies": {
     "@ant-design/icons": "^5.0.1",
     "@ant-design/pro-components": "^2.4.4",
+    "@ant-design/pro-layout": "^7.17.19",
     "@umijs/max": "^4.1.1",
-    "antd": "^5.4.0"
+    "antd": "^5.13.2",
+    "axios": "^1.6.5",
+    "react-router-dom": "^6.21.3"
+   
   },
   "devDependencies": {
     "@types/react": "^18.0.33",
