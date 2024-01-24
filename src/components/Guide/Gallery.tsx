@@ -12,7 +12,7 @@ import gallery9 from '@/assets/gallery/gallery-9.jpg';
 import gallery10 from '@/assets/gallery/gallery-10.jpg';
 import gallery11 from '@/assets/gallery/gallery-11.jpg';
 import gallery12 from '@/assets/gallery/gallery-12.jpg';
-import styles from './Gallery.less'; // Import your styles
+import styles from './Gallery.less'; 
 
 const galleryImages = [
   gallery1, gallery2, gallery3, gallery4, gallery5,

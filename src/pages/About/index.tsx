@@ -1,4 +1,3 @@
-// src/pages/AboutUs.tsx
 import React from 'react';
 import AboutUsLayout from '../../components/Guide/AboutUsLayout';
 
