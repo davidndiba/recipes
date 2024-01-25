@@ -1,5 +1,3 @@
-// src/pages/RateUs.tsx
-
 import React from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
 import Navbar from '../../components/Guide/Navabar';
