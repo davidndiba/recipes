@@ -1,85 +1,66 @@
-.header {
-    width: 100%;
-    background-color: #fcf1d4;
-    padding: 4.5rem;
+.navbarContainer {
+  width: 100%;
+  height: 70vh;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.contentContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start; /* Align the content to the left */
+  width: 100%;
+  text-align: left;
+}
+
+.textContainer {
+  width: 100%;
+  max-width: 600px;
+  margin-left: 0; /* Ensure there's no margin pushing it to the center */
+}
+
+.mainTitle {
+  color: #fff;
+  font-size: 38px;
+  font-weight: 600;
+  font-family: Inter, sans-serif;
+  line-height: auto;
+  margin-bottom: 16px;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 80%);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: Inter, sans-serif;
+  line-height: auto;
+  margin-bottom: 20px;
+}
+
+.ctaButton {
+  background-color: #8acc6c;
+  color: #000;
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px 20px;
+  transition: background-color 0.3s;
+  width: auto;
+  text-align: center;
+}
+
+.ctaButton:hover {
+  background-color: #7bb65f;
+}
+
+@media (max-width: 768px) {
+  .mainTitle {
+    font-size: 36px;
   }
-  
-  .hero {
-    max-width: 120rem;
-    margin: 0 auto;
-    padding: 0rem 3.2rem;
-  
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 9.6rem;
-    align-items: center;
-    justify-content: center;
+
+  .subtitle {
+    font-size: 24px;
   }
-  
-  .hero-left {
-    display: flex;
-    flex-direction: column;
-    gap: 3rem;
-  }
-  
-  .hero-title {
-    font-size: 5rem;
-    color: #333;
-    line-height: 1.05;
-  }
-  
-  .hero-text {
-    font-size: 1.8rem;
-    line-height: 1.6;
-  }
-  
-  .recipe-btn {
-    padding: 1rem 2rem;
-    background-color: #f4d06f;
-    color: #000;
-    font-weight: 700;
-    font-size: 1.8rem;
-    border: none;
-    border-radius: 9px;
-    font-family: inherit;
-    transition: all 0.3s ease;
-    margin-top: 2rem;
-  }
-  
-  .recipe-btn:hover {
-    background-color: #d3b153;
-    cursor: pointer;
-  }
-  
-  .hero-img {
-    width: 50rem;
-  }
-  
-  .hero-customers {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    margin-top: 2rem;
-  }
-  
-  .customers-imgs {
-    display: flex;
-  }
-  
-  .customer-img {
-    width: 4.8rem;
-    border-radius: 50%;
-    border: 4px solid #fcf1d4;
-    margin-left: -16px;
-  }
-  
-  .customers-text {
-    font-size: 1.8rem;
-    font-weight: 600;
-  }
-  
-  .customers-number {
-    color: #ab924e;
-    font-weight: 800;
-  }
-  
+}

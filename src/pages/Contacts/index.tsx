@@ -1,15 +1,16 @@
 import React from 'react';
 import { PageContainer } from '@ant-design/pro-layout';
 import Navbar from '../../components/Guide/Navabar';
-import RatingForm from '../../components/Guide/RatingForm';
-
-const RateUs: React.FC = () => {
+// import ContactInfo from '@/components/Guide/ContactInfo';
+import ContactInfo from '@/components/Guide/ContactInfo'
+const ContactUs: React.FC = () => {
   return (
     <PageContainer>
       <Navbar />
-      <RatingForm />
+      <ContactInfo/>
+     
     </PageContainer>
   );
 };
 
-export default RateUs;
+export default ContactUs;

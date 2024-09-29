@@ -1,10 +1,10 @@
 export async function getInitialState(): Promise<{ name: string }> {
-  return { name: 'RecipesCorn' };
+  return { name: 'MiCROVISIONWEBSITE' };
 }
 
 export const layout = () => {
   return {
-      layout: false, 
+    layout: false, 
     headerRender: false, 
     menuRender: false,
     footerRender: false,
