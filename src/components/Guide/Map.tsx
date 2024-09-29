@@ -6,7 +6,7 @@ const Map: React.FC = () => {
     <Card className="map-container">
       <iframe
         title="Google Maps"
-        width="550"
+        width="380"
         height="460"
         frameBorder="0"
         scrolling="no"
